@@ -4,8 +4,8 @@ services:
     restart: always
     environment:
       POSTGRES_DB: finControl_db
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: kt#syw3@Bj
+      POSTGRES_USER: fin
+      POSTGRES_PASSWORD: fin12345
 
     ports:
       - "5432:5432"
